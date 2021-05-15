@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        text-align: center;
+        margin: auto;
+    }
+    #txt1{
+        width: 300px;
+        margin-top: 30px;
+    }
+    label{
+        font-size: 20px;
+    }
+    ul {
+        list-style: none;
+        font-size: 20px;
+    }
+
+    #btn{
+        margin-top: 30px;
+    }
+</style>
+
+<body>
+    <h1>Nacionalidade</h1>
+    <h2>Digite uma das opções abaixo!</h2>
+    <ul>
+        <li>Brasil</li>
+        <p>Ou</p>
+        <li>Estados Unidos</li>
+    </ul>
+    <label><strong> Digite o nome do País escolhido acima e depois cilque no botão Verificar!</strong></label>
+    <input type="text" id="txt1" placeholder="Ex:Brasil ou Estados Unidos">
+    <button onclick="verificar()">Verificar</button>
+    <!--<input type="button" value="Verificar" onclick="verificar()">-->
+    <div id="resultado"></div>
+    <input id = "btn" type="button" value="Recarregar" onclick="window.location.reload()">
+
+    <script src="script.js"></script>
+</body>
+
+</html>
